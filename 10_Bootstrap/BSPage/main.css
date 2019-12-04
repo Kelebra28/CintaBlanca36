@@ -1,0 +1,44 @@
+/* ----- navbar ----- */
+.customNavLogo {
+    width: 70px;
+}
+
+/* --- form section------  */
+.customNavInput, .customNavButton, .customCard, .card-body > a {
+    background-color: #000;
+    border-radius: 0;
+    color: #fff !important;
+    border: solid 1px #fff;
+}
+
+.customNavButton:hover {
+    background-color: #fff;
+    color: #000;
+    border: solid 1px #fff;
+}
+
+.customNavInput:focus {
+    background-color: #000;
+}
+
+.customNavInput::placeholder {
+    color: #fff;
+}
+
+/* -----hero section---- */
+
+.customHeroImg, .customCarousel{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* ----- main section---  */
+
+body {
+    background-color: #000;
+}
+
+h2 {
+    color: #fff;
+}
